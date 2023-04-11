@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.login {
+  background-color: #f5f5f5;
+  width: 428px;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-bottom: 37px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form .form-group {
+  width: 342px;
+  height: 44px;
+  margin: 10px;
+}
+
+.form-group input,
+button {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.form-group input {
+  background-color: #f8f0f0;
+  font-size: 14px;
+  font-weight: 400;
+}
+.form-group button {
+  background-color: #0339f9;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form .group {
+  margin-bottom: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  form .form-group {
+    width: 300px;
+  }
+}
+
+.reset-password {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0266fb;
+  margin-top: 20px;
+}
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.line .or {
+  padding: 0 10px;
+}
+
+.create-account {
+  margin-top: 45px;
+}
+
+.create-account a {
+  background-color: #07a717;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.footer {
+  margin-top: 100px;
+}
+.footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.footer ul li {
+  padding: 0 22px;
+}
+
+.footer ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+
+.footer span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer span img {
+  padding: 0 5px;
+}
